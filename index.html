@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization </title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+  <h1>Interactive Data Visualization Portfolio</h1>  
+    <h2> This portfolio was made for DATA73200: Interactive Data Visualization class in CUNY Graduate Center (Fall 2020) by Meriem Benarbia using HTML, CSS, JavaScript D3.</h2>
+    <br><br><br><br><br><br>
+    <a href="https://atini2525.github.io/globalnarrative/">Narrative Project</a><br><br>
+    <a href="https://atini2525.github.io/exploratory/exploratory2/index.html">My Exploratory Project</a> <br><br>
+    <a href="https://atini2525.github.io/Interactive-Data-Vis-Fall2020/tutorial5_geographic/index.html">Turorial 05 Map of USA </a><br><br>
+    <a href="https://atini2525.github.io/Interactive-Data-Vis-Fall2020/tutorial4_timeseries/index.html">  Ditribution of Fertility Rate USATurorial 04 Map</a><br><br>
+    <a href="https://atini2525.github.io/Interactive-Data-Vis-Fall2020/tutorial3_distributions/index.html"> ENTER-Update-Exit  Tutorial 03</a><br><br>
+   
+    <p class='section1' > Reflection.</p>
+    <div class='section'  > 
+    <p class='text'>•	Outline the major design decisions you made for your visuals, explain how you got there and why you picked them. <br><br>
+      The main idea was to design a map which shows the different rate of happiness on a legend color. The first set of data that I have investigated was from Kaggle. Kaggle is a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. After, a little bit of research I have encountered this website “Our World in Data”, which is a scientific online publication that focuses on large global problems such as poverty, disease, hunger, climate change, war, existential risks, and inequality. I have decided then to use “Our World in Data” as my main source of information since it has a larger set of data. <br>
+      
+      Once the exploratory project was completed, the next step was to interpolate the happiness data with another set variables. The variable that was added for this study was the fertility rate from “Our World in Data”. The purpose is to display the relationship between the fertility rate and the happiness rate. The visualization of these variables would help to assess if the fertility rate would affect positively or negatively the happiness rate. Scatter plots were used for the comparison. Figure 01 is a scatter plot, that represents the happiness rate (X Axis) vs countries (Y Axis). The order arrangement was made such as the countries with the lowest happiness rate would be in the bottom, and the countries with the highest happiness rate would be in the top. Figure 02 is a scatter plot that represent the fertility rate vs countries. the order arrangement of these countries was made to match the Y axis in figure 01. <br>  
+      The line charts represent the changes of both fertility rate and happiness rate for each country during the last decade. These charts show that they can be reliable to draft serious conclusions and relationship between these two data sets. <br><br>
+      
+      If you were to develop your own design process, how would it differ or mirror the design process taught in class? <br><br>
+      If I have had to develop my own design process, I would have started by explaining the basic as the margin, the different data, table and object and each function that we use for each type of data. Actually, it won’t differ much from the one taught in class, but I would have just dived in more in the different functions: “map”, and “for each”, and “max”, and “min”, “type of data”. I would have emphasis about when we should use an array or when we should use an object. When I was coding, I run into some issues. I had to go through the basics again in order to keep going forward on my project. Therefore, I would have included a little bit of coding review for the students. <br><br>
+      
+      
+      What was the most helpful thing you learned from your projects? <br><br>
+      The most helpful thing is how to set the margin and how to set the different graph into different attribute or tags in order to organize the final visualization. Also organizing the different graph on different page.js was very helpful to go over them and to correct each graph separately in case of bugs. Also, I have used different data sources that I have never used before.  I have also learned how to use a geojson and how it is important to visualize the different maps. We cannot deign a map without knowing how to use geojson file. <br><br>
+      How did the critiques affect your project and how you think about it? <br><br>
+      The critiques were very helpful since the beginning. I mean since the first tutorial where the first critique that I received was about my csv file. The file was a complete mess and had many empty data. Therefore, the graph could not be well displayed once deployed.  Even though, it was working on my local machine. Thanks to your feedback, I have started to check my CSV file and try to clean it as much as possible by checking it on My Inspect Dom. Also, I learned the importance of the   display x-scale and y-scale for my final project. <br><br>
+      How did your final project differ from the prospectus you outlined? <br><br>
+      My final project differs significantly from the prospectus design. I have added a map which was not included in my preliminary project prospectus. The reason why I have added it it’s because it can be helpful to visualize and display the happiness index per country. Similarly, two-line charts, and three scatter plots were added on the final project. The purpose of adding two-line chart per country is to provide more explanation and more insight that can be used to draft a better conclusion. Overall, I am satisfied with the work I have performed, and I wish that I would have had more time to do a more detailed work. <br><br>
+      What were your major challenges? How would you mitigate them with your next project? <br><br>
+      I have spent lot of time and energy working on the map. It was one of my biggest challenges. I had to learn how to connect the Json file to CSV file in order to match the data from each file. I had to create the ID of the country in my CSV data in order to compare it. Also, I had to set two loop functions. The first one is to loop in the Json file and the second one is to loop in the CSV file. The most challenging part was to add a zoom and a color scale. <br>
+       Also, one of the challenges that I have encountered was to set up a tooltip on the different maps. The hardest part is to set up the boundaries of each country. So, when we move the cursor over a specific country, we can get the data as long as the cursor is within the boundary of that specific country.  <br>
+      Last but not least, I had to learn how to clean the data set. Cleaning the data is a really important step that helps displaying the data in a neat way. Personally, it took me more than a day to find the correct data and clean it. <br><br>
+      
+      If you had more time and resources, what would you add/remove/change about your projects? <br><br>
+      If I had more time and more resources, I would have tried to investigate the difference of happiness rate and fertility rate since the 1950’s. However, I had faced difficulties to find the happiness rate before the 2000’s. Unfortunately, I had to near down my research to only the last decades. Therefore, we cannot fully explain the evolution of both fertility and happiness. I also wanted to see the effects of income on the happiness rate. In the 1950’s the income was lower, but the fertility was higher, if I had more data, I would have drafted a more detailed conclusion. If I had more time I would have designed one more scatter plot where the x scale would be the rate of happiness and y scale will be the rate of fertility , which will plot the difference of the country comparing to these two data. Moreover, I would have added more details and more analysis to support my conclusion. <br><br>
+      
+      
+      
+      
+      
+      
+    <script src="d3.js"></script>
+    <script src="main.js"></script>
+    <script>
+    
+  </script>
+  </body>
+</html>
